@@ -1,0 +1,69 @@
+/* body{
+    background-color: pink;
+}
+
+
+.head{
+    text-align: center;
+    color: blue;
+    font-size: 30px;
+}
+
+img{
+height: 10em;
+width: 10rem;
+}
+
+
+.head{
+    
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+
+.imgc{
+    justify-content: center;
+    display: flex;
+  }
+.happy{
+    padding-right: 50px;
+}
+
+.neutral{
+    padding-right: 50px;
+} */
+
+body {
+    background-color: pink;
+}
+
+.head {
+    text-align: center;
+    color: blue;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+
+img {
+    height: 10em;
+    width: 10rem;
+}
+
+.imgc {
+    justify-content: center;
+    display: flex;
+}
+
+.happy,
+.neutral {
+    padding-right: 50px;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    .happy,
+    .neutral {
+        padding-right: 20px; /* Adjust the padding for smaller screens */
+    }
+}
